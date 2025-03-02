@@ -8,7 +8,7 @@ public class Main {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Digite os status do primeiro campeao:");
+        System.out.println("Digite os status do primeiro campeão:");
         System.out.print("Nome: ");
         String campeao1Nome = sc.nextLine();
         System.out.print("Vida Inicial: ");
@@ -19,7 +19,7 @@ public class Main {
         Integer campeao1Armadura = sc.nextInt();
         Champion campeao1 = new Champion(campeao1Nome, campeao1VidaInicial, campeao1Ataque, campeao1Armadura);
 
-        System.out.println("Digite os status do segundo campeao:");
+        System.out.println("Digite os status do segundo campeão:");
         System.out.print("Nome: ");
         sc.nextLine();
         String campeao2Nome = sc.nextLine();
